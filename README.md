@@ -8,11 +8,11 @@ This site showcases my projects, skills, and creative work as a developer and ar
 ## Features
 
 - Fully responsive layout using HTML, CSS, and Bootstrap 5
-- Hero section with animated intro and a fun title
+- Hero section with hover animated intro and a fun title
 - Projects section with project cards linking to live demos or GitHub
 - About Me section with self-portrait illustration and personal highlights
 - Resume section highlighting skills, bootcamps, and work experience
-- Contact section with a functional form, GitHub, and LinkedIn links
+- Contact section with a (soon to be) functional form, GitHub, and LinkedIn links
 - Sparkle accents, hover effects, and gradient glows for an interactive feel
 
 ---
@@ -43,10 +43,10 @@ https://yourusername.github.io/portfolio/
 
 ## Project Status
 
-✅ Core layout and sections complete
-✅ Responsive design for desktop, tablet, and mobile
-⚡ Additional responsiveness tweaks planned
-⚡ Future updates may include more project showcases
+- ✅ Core layout and sections complete
+- ✅ Responsive design for desktop, tablet, and mobile
+- ⚡ Additional responsiveness tweaks planned
+- ⚡ Future updates may include more project showcases
 
 ---
 
