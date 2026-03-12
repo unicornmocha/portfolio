@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agnis-Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="./style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAV BAR -->
+    <section id="nav-bar" class="background-theme sticky-top">
+        <div class="container"> 
+            <header class="d-flex flex-wrap justify-content-center py-3 "> 
+                <a href="#hero-section" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stars" viewBox="0 0 16 16" style="color: #F1F1F1">
+  <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/>
+</svg>
+                    <span class="fs-4" style="color: #F1F1F1">Agni's Portfolio</span> 
+                </a> 
+                <ul class="nav nav-pills"> 
+                    <li class="nav-item"><a href="#hero-section" class="nav-link" aria-current="page">Home</a></li> 
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>  
+                    <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li> 
+                    
+                    <li class="nav-item"><a href="#contact-me" class="nav-link">Contact Me</a></li> 
+                </ul> 
+            </header> 
+        </div>
+    </section>
+<!-- HERO SECTION -->
+    <section id="hero-section" class="background-theme">
+        <div class="container col-xxl-8 px-4 py-5"> 
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5"> 
+                <div class="col-10 col-sm-8 col-lg-6"> <img src="./images/Untitled_Artwork 3.png" alt="sad-cat-sticker" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> 
+                </div> 
+                <div class="col-lg-6"> 
+                    <h1 class="display-5 lh-base mb-3 montserrat-title-text" style="color: #FF8FAB;">Hi, I'm <span style="color: #82F094;">Agni</span> - Developer, Artist, Chief Silly Cat Officer</h1> 
+                    <a href="#contact" class="btn btn-green btn-lg mt-3">Contact Me</a>
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+    </section>
+<!-- PROJECT PORTFOLIO -->
+    <section id="portfolio" class="background-theme section-divider">
+        <div class="container px-4 py-5">
+            <h2 class="pb-2 display-6 section-title montserrat-title-text">Projects</h2>
+        <div class="row row-cols-1 row-cols-lg-3 pt-5">
+        <div class="col-lg-4 mb-4">
+            <div class="card-wrapper h-100">
+                <div class="card project-card h-100 rounded-4">
+                    <img src="./images/portfolio-img-lotr.png" class="card-img-top img-fluid" alt="Quiz game app Screenshot">
+                        <div class="card-body d-flex flex-column">
+                        <h3 class="card-title fw-bold mb-3">Quiz game app</h3>
+                        <p class="card-text flex-grow-1">A fun Lord of the Rings quiz game built in Python using Tkinter. Test your LOTR knowledge, enjoy a simple GUI, and play standalone on Mac or Windows.</p>
+                        <a href="https://github.com/unicornmocha/Lotr-Quiz-Game" target="_blank" class="btn btn-green mt-3">View on GitHub</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card-wrapper h-100">
+                    <div class="card h-100 rounded-4">
+                        <img src="./images/portfolio-img-tindog.png" class="card-img-top img-fluid" alt="Tindog Website Design Screenshot">
+                            <div class="card-body d-flex flex-column">
+                            <h3 class="card-title fw-bold mb-3">Tindog Website Design</h3>
+                            <p class="card-text flex-grow-1">Bootcamp project: Recreate the website example using HTML, CSS and Bootstrap.</p>
+                            <a href="https://unicornmocha.github.io/tindog-website-html-css/" target="_blank" class="btn btn-green mt-3">View on GitHub</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card-wrapper h-100">
+                    <div class="card h-100 rounded-4">
+                        <img src="./images/portfolio-img-liora.png" class="card-img-top img-fluid" alt="Hotel Website Design Screenshot">
+                            <div class="card-body d-flex flex-column">
+                            <h3 class="card-title fw-bold mb-3">Hotel Website Design</h3>
+                            <p class="card-text flex-grow-1">A modern hotel website layout made on Canva, showcasing understanding of design principles.</p>
+                            <a href="https://contentbyagni.my.canva.site/dahcvefx33g" target="_blank" class="btn btn-green mt-3">View on Canva</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="about-me" class="background-theme section-divider">
+        <div class="container col-xxl-8 px-4 py-5"> 
+            <div class="row flex-lg-row align-items-center g-5 py-5"> 
+                <div class="col-10 col-sm-8 col-lg-6"> <img src="./images/about_me_pic.png" alt="polaroid-illustrated-portrait" class="img-fluid about-img" width="700" height="500" loading="lazy"> 
+                </div> 
+                <div class="col-lg-6"> 
+                    <h2 class="pb-2 display-6 section-title montserrat-title-text">About Me</h2>
+                    <div class="about-facts my-3 poppins-regular">
+                    <span>🐍 Python lover</span>
+                    <span>✨ Silly cat artist</span>
+                    <span>💻 Future software engineer</span>
+                    </div>
+                   <p class="poppins-regular">
+                    I'm a developer and artist who enjoys building things that are fun, intuitive, and playful.
+                    </p>
+
+                    <p class="poppins-regular">
+                    I've been self-studying programming through courses and bootcamps, focusing mainly on
+                    <strong>Python</strong> and <strong>web development</strong>.
+                    </p>
+
+                    <p class="poppins-regular">
+                    Outside of coding, I run a small stationery brand designing silly cat meme stickers —
+                    combining creativity with technology in everything I build.
+                    </p>
+                    
+                </div> 
+            </div> 
+        </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="background-theme section-divider">
+        <div class="container px-4 py-5">
+            <h2 class="pb-2 display-6 section-title montserrat-title-text">Skills & Experience</h2>
+        <div class="row row-cols-1 row-cols-lg-3 pt-5">
+        <div class="col-lg-4 mb-4">
+            <div class="resume-card-wrapper h-100">
+                <div class="card h-100 rounded-4">
+                        <div class="card-body d-flex flex-column">
+                        <h3 class="card-title fw-bold mb-3">Languages</h3>
+                        <div class="mb-4"><span class="badge skill-badge">Python</span>
+                            <span class="badge skill-badge">JavaScript</span>
+                            <span class="badge skill-badge">HTML</span>
+                            <span class="badge skill-badge">CSS</span>
+                            <span class="badge skill-badge">Bash</span>
+                        </div>
+                        <h3 class="card-title fw-bold mb-3">Frameworks & Tools</h3>
+                        <div class="mb-4"><span class="badge skill-badge">Node.js</span>
+                            <span class="badge skill-badge">React</span>
+                            <span class="badge skill-badge">PostgreSQL</span>
+                            <span class="badge skill-badge">Docker</span>
+                            <span class="badge skill-badge">Git</span>
+                            <span class="badge skill-badge">CI/CD</span>
+                        </div>
+                        <h3 class="card-title fw-bold mb-3">Concepts</h3>
+                        <div class="mb-2"><span class="badge skill-badge">APIs</span>
+                            <span class="badge skill-badge">Automation</span>
+                            <span class="badge skill-badge">Full-Stack Development</span>
+                            <span class="badge skill-badge">AI Systems</span>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="resume-card-wrapper h-100">
+                <div class="card h-100 rounded-4">
+                        <div class="card-body d-flex flex-column">
+                        <h3 class="card-title fw-bold mb-3">Training / Bootcamps</h3>
+                        <div class="bootcamp-item">
+                            <h4>🎓 Full-Stack Web Developer</h4>
+                            <p class="bootcamp-org">The App Brewery</p>
+                            <p class="bootcamp-tech">HTML • CSS • JS • React • Node</p>
+                        </div>
+                        <div class="bootcamp-item">
+                            <h4>🐍 Python Development</h4>
+                            <p class="bootcamp-org">Code First Girls</p>
+                            <p class="bootcamp-tech">OOP • APIs • App building</p>
+                        </div>
+                        <div class="bootcamp-item">
+                            <h4>🧠 AI with Python</h4>
+                            <p class="bootcamp-org">Harvard CS50</p>
+                            <p class="bootcamp-tech">Graph search • reinforcement learning</p>
+                        </div> 
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+            <div class="resume-card-wrapper h-100">
+                <div class="card h-100 rounded-4">
+                        <div class="card-body d-flex flex-column">
+                        <h3 class="card-title fw-bold mb-3">Experience</h3>
+                        <p class="card-text flex-grow-1 fw-bold">Manager – Rinkoff Bakery</p>
+                        <ul>
+                            <li><p>Led team workflow in fast-paced environment</p></li>
+                            <li><p>Implemented process improvements for stock tracking</p></li>
+                            <li><p>Solved operational problems quickly under pressure</p></li>
+                        </ul>
+                        <p class="card-text flex-grow-1 fw-bold">Founder – UnicornMocha Design</p>
+                        <ul>
+                            <li><p>Built and ran an online design business</p></li>
+                            <li><p>Managed branding, workflows, and automation systems</p></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    
+    <!-- CONTACT ME -->
+    <section id="contact-me" class="background-theme section-divider">
+    <div class="container col-xxl-8 px-4 py-5">
+
+        <h2 class="display-6 section-title montserrat-title-text">Contact Me</h2>
+
+        <div class="row g-5 mt-3">
+
+        <!-- CONTACT FORM -->
+        <div class="col-lg-7">
+
+            <form class="contact-form">
+
+            <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" placeholder="Your name">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="your@email.com">
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="5" placeholder="Write your message..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-green btn-lg">
+                Send Message ✨
+            </button>
+
+            </form>
+
+        </div>
+
+        <!-- CONTACT CARD -->
+        <div class="col-lg-5">
+
+            <div class="card-wrapper resume-card-wrapper p-4 h-100">
+
+            <h3 class="card-title mb-3">Let's build something fun</h3>
+
+            <p class="poppins-regular mb-4">
+                I'm always excited to collaborate on creative tech projects,
+                automation tools, or anything involving clever code and silly ideas.
+            </p>
+
+            <div class="contact-links">
+
+                <a href="https://github.com/unicornmocha" target="_blank" class="btn btn-sparkle mb-3 w-100">
+                💻 View GitHub
+                </a>
+
+                <a href="www.linkedin.com/in/agnija-berzina" target="_blank" class="btn btn-pink w-100">
+                🔗 Linked-in 
+                </a>
+
+            </div>
+
+            </div>
+
+        </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section id="footer-section" class="background-theme section-divider">
+        <footer class="container text-center py-4">
+            <div class="container text-center py-4">
+
+            <p class="footer-name montserrat-title-text mb-2">
+            ✦ Agni Berzina
+            </p>
+
+            <div class="footer-links mb-3">
+            <a href="#hero-section">Home</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#about-me">About</a>
+            <a href="#contact-me">Contact</a>
+            </div>
+
+            <p class="footer-credit poppins-regular">
+            Built with HTML, CSS, Bootstrap & lots of ☕
+            </p>
+
+            <p class="footer-copy">
+            © 2026 Agni Berzina
+            </p>
+
+            </div>
+        </footer>
+    </section>
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
