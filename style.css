@@ -168,7 +168,7 @@ font-size:0.8em;
 }
 
 #nav-bar {
-  background-color: rgba(43, 45, 66, 0.95); 
+  background-color: rgba(43, 45, 66, 0.90); 
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px); 
   border-bottom: 1px solid rgba(255,255,255,0.08);
